@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/black"
+            android:padding="0dip" >
+         
+                    
+          <ImageButton
+            android:id="@+id/imagebuttoncash"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_above="@+id/imagebuttonkiosk"
+            android:layout_toLeftOf="@+id/imagebuttongoods"
+        	android:src="@drawable/cash_in_kiosk" />
+                                  
+            <ImageButton
+            android:id="@+id/imagebuttongoods"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/imagebuttonkiosk"
+        	android:src="@drawable/goods_received" />
+            
+            
+            <ImageButton
+            	android:id="@+id/imagebuttonreturned"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_above="@+id/imagebuttonkiosk"
+	            android:layout_toRightOf="@+id/imagebuttongoods"
+	            android:src="@drawable/goods_returned" />
+
+            <ImageView
+            android:id="@+id/imagebuttonkiosk"
+            android:layout_width="250dip"
+            android:layout_height="250dip"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+        	android:contentDescription="menu_label"
+        	android:src="@drawable/ic_launcher2" />
+            
+            <ImageButton
+            	android:id="@+id/imagebuttoncheck"
+                android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/imagebuttonkiosk"
+	            android:layout_toLeftOf="@+id/imagebuttoninfo"
+                android:src="@drawable/check_stock" />
+            
+            <ImageButton
+            	android:id="@+id/imagebuttoninfo"
+                android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/imagebuttonkiosk"
+                android:src="@drawable/info" />
+            
+            <ImageButton
+            android:id="@+id/imagebuttonabout"
+            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_below="@+id/imagebuttonkiosk"
+	            android:layout_toRightOf="@+id/imagebuttoninfo"
+        	android:src="@drawable/aboutmain" />
+
+            
+        </RelativeLayout>

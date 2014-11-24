@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/editTextNumberOfItem"
+        android:layout_width="38dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="22dp"
+        android:layout_toLeftOf="@+id/imageViewRemoveIcon"
+        android:ems="2"
+        android:background="#FFFFFF"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textColor="@color/black"
+        android:textSize="20sp">
+        
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageViewRemoveIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="remove icon"
+        android:src="@drawable/remove" />
+
+    <TextView
+        android:id="@+id/textViewNameOfItem"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="71dp"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

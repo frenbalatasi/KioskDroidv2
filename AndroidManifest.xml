@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="at.ejbox.kioskdroidv2"
+    android:versionCode="2"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="at.ejbox.kioskdroidv2.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="at.ejbox.kioskdroidv2.ActivityFive"
+            android:label="@string/title_activity_activity_five" >
+        </activity>
+        <activity
+            android:name="at.ejbox.kioskdroidv2.ActivitySix"
+            android:label="@string/title_activity_activity_six" >
+        </activity>
+        <activity
+            android:name="at.ejbox.kioskdroidv2.ActivityScan"
+            android:label="@string/title_activity_activity_scan" >
+        </activity>
+        <activity
+            android:name="at.ejbox.kioskdroidv2.Checkout"
+            android:label="@string/title_activity_checkout" >
+        </activity>
+    </application>
+
+</manifest>

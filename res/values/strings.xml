@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello"><b>Stock Management App</b></string>
+    <string name="app_name">Kiosk Stock Management</string>
+    <string name="button1_label">Cash in Kiosk</string>
+    <string name="button2_label">Goods Received</string>
+    <string name="button3_label">Goods Returned</string>
+    <string name="button4_label">Check Stock</string>
+    <string name="button5_label">Info</string>
+    <string name="button6_label">About</string>
+    <string name="title_activity_r">R</string>
+    <string name="action_settings">Settings</string>
+    <string name="print_view">Print View</string>
+    <string name="app_info"><b>Info</b></string>
+    <string name="enterBarcode">Enter Barcode</string>
+    <string name="showAll">Show All</string>
+    <string name="checkout">Checkout!</string>
+
+    <color name="yell">#FFFF33</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#C0C0C0</color>
+
+    <string name="button8_label">Back</string>
+    <string name="button9_label">Back</string>
+    <string name="info">This application manage your stock online. From your mobile device you can process Kiosk sales, receive your goos from supplier, return goods to supplier and make inventory queries. The development of this application is supported by the lecture series of Mobile Application with Android by Dr.-Ing. Claude Takenga.</string>
+    <string name="about"><b>Arda Akcay and Ricardo Torreblanca</b></string>
+    <string name="title_activity_activity_five">Info</string>
+    <string name="title_activity_activity_six">About</string>
+    <string name="menu_label">menu label</string>
+    <string name="title_activity_activity_scan">Scan Item(s)</string>
+    <string name="title_activity_checkout">Item(s)Checkout!</string>
+    
+
+  
+    
+
+</resources>
