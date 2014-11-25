@@ -79,6 +79,9 @@ public class Main extends Activity{
 		});		
 		
 		
+		
+		
+		
 		// Button for Info
 		ImageButton buttoninfo = (ImageButton) findViewById(R.id.imagebuttoninfo);
 		buttoninfo.setOnClickListener(new View.OnClickListener() {
